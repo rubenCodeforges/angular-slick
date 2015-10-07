@@ -140,7 +140,7 @@ angular.module('slick', []).directive('slick', [
                 return slider.slick('slickGoTo', newVal);
               }
             });
-          });
+          },100);
         };
         if (scope.initOnload) {
           isInitialized = false;
